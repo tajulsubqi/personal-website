@@ -2,7 +2,6 @@ import { BsDownload } from "react-icons/bs"
 import Skills from "./Skills"
 import "animate.css/animate.min.css"
 import CardLastProject from "./CardLastProject"
-import cv from "../assets/cv/CV.Hervinsa.pdf"
 import { Link } from "react-router-dom"
 
 const HomeContent = () => {
@@ -27,8 +26,8 @@ const HomeContent = () => {
           </p>
           <button>
             <Link
-              // to={cv}
               target="_blank"
+              to="/cv/CV.Tajul_Subqi.pdf"
               className="flex items-center gap-2 py-3 px-5 text-white text-sm rounded-full bg-indigo-600 font-bold hover:bg-indigo-700"
             >
               <BsDownload />

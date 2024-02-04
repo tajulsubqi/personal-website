@@ -1,14 +1,7 @@
-import gallery from "../assets/projects/gallery.png"
-import nft from "../assets/projects/Nft.png"
-import movie from "../assets/projects/movie.png"
-import course from "../assets/projects/Course.png"
-import bimbel from "../assets/projects/Bimbel.png"
-import umkm from "../assets/projects/Umkm.png"
-import notes from "../assets/projects/notesapp.png"
 import manga from "../assets/projects/manga.png"
 import react from "../assets/react.svg"
 import undangan from "../assets/projects/Undangan.png"
-import weblkg from "../assets/projects/web lkg.png"
+import circleApp from "../assets/projects/circle-app.png"
 
 export const allProject = [
   // {
@@ -120,22 +113,24 @@ export const allProject = [
   //   link: "https://bimbel-all-class.vercel.app/",
   //   preview: "Preview",
   // },
-  // {
-  //   id: 7,
-  //   image: bayodev,
-  //   alt: "BayoDev",
-  //   title: "Personal Website",
-  //   desc: "Portfolio website to showcase my projects",
-  //   tech1: react,
-  //   alt1: "react",
-  //   tech2:
-  //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
-  //   alt2: "boostrap",
-  //   tech3: "https://vitejs.dev/logo.svg",
-  //   alt3: "viteJs",
-  //   link: "https://web-course-reactvitejs.netlify.app//",
-  //   preview: "Preview",
-  // },
+  {
+    id: 7,
+    image: circleApp,
+    alt: "circle app",
+    title: "Circle App",
+    desc: "Circle App website to showcase my projects",
+    tech1: react,
+    alt1: "react",
+    tech2:
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    alt2: "typescript",
+    tech3: "https://vitejs.dev/logo.svg",
+    alt3: "viteJs",
+    tech4: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+    alt4: "tailwind",
+    link: "https://github.com/tajulsubqi/fullstack-thread-app",
+    preview: "Preview",
+  },
   // {
   //   id: 8,
   //   image: course,
